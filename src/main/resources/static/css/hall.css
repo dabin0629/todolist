@@ -1,0 +1,50 @@
+/* Reset styles */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #00aaff;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #00aaff;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background: #f0f0f0
+}

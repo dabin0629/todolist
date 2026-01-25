@@ -1,0 +1,109 @@
+body, h1, ul, li, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #00aaff;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.list-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#recommended-list {
+    list-style: none;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f0f0f0;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+}
+
+.progress-wrapper {
+    flex-grow: 2;
+}
+
+.task-text {
+    flex: 1;
+    margin-left: 1rem;
+}
+
+.edit-btn, .delete-btn, .progress-btn {
+    margin-left: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-btn:hover, .delete-btn:hover, .progress-btn:hover {
+    background-color: #0077cc;
+}
+
+#new-task {
+    width: calc(100% - 10px);
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#add-task-btn {
+    padding: 0.5rem 1rem;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background-color: #0077cc;
+}
+
+.progress-btn {
+    background-color: #f0f0f0; /* 기본 버튼 배경 */
+    color: #333;
+    border: 1px solid #ccc;
+    margin: 2px;
+    padding: 5px 10px;
+}
+
+.selected {
+    background-color: #00aaff; /* 눈에 띄는 색상 */
+    color: white;
+    font-weight: bold;
+}

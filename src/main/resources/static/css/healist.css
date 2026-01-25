@@ -1,0 +1,78 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #00aaff;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#quote-section {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #e7f5ff;
+    border-radius: 10px;
+}
+
+#todo-section {
+    margin-bottom: 2rem;
+}
+
+#todo-section h2 {
+    margin-bottom: 1rem;
+}
+
+#todo-section ul {
+    list-style: none;
+}
+
+#todo-section li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+#navigation button {
+    padding: 1rem 2rem;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+#navigation button:hover {
+    background-color: #0077cc;
+}
